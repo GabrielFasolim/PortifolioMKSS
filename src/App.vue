@@ -9,6 +9,7 @@
 <script setup lang="ts">
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import { ElButton } from 'element-plus'
 
 </script>
 
