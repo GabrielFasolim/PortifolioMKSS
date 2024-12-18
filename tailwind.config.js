@@ -15,6 +15,7 @@ module.exports = {
         primary300: '#4A59E5',
         primary200: '#A4ACF0',
         primary100: '#D1D6F5',
+       
       },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'], // Adiciona a fonte Outfit
