@@ -94,14 +94,15 @@
     </div>
 
     <!-- Imagem de Rede Global -->
-    <div class="flex-1 relative z-10">
-      <img
+    <div class="ml-[70px] w-[600px]">
+      <!-- <img
         src="../assets/globo.png"
         alt="Hero"
         class="max-w-full h-auto"
         data-aos="fade-left"
         data-aos-duration="1500"
-      />
+      /> -->
+      <Globe/>
     </div>
   </div>
 </template>
@@ -110,8 +111,12 @@
 import { ref, onMounted } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Globe from "./Globe.vue";
 
 export default {
+  components: {
+    Globe,
+  },
   setup() {
     const isHovered = ref(false);
 
