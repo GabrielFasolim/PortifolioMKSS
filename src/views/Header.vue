@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-primary100">
+  <div class="border-b-2	 border-primary100 ">
     <div class="flex justify-between m-8">
       <div class="ml-[200px]">
         <img src="../assets/logoAzul.png" alt="Logo Azul" />

@@ -1,7 +1,6 @@
 <template>
-  <div class="bg-primary800 mt-7 ">
-    <div class="block text-center h-[60vh]">
-      <!-- Carrossel -->
+  <div class="bg-primary800 mt-7  ">
+    <div class="block text-center h-[60vh] ">
       <el-carousel height="550px" motion-blur>
         <el-carousel-item v-for="(project, index) in projects" :key="index">
           <div>
