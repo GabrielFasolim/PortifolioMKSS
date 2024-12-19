@@ -16,7 +16,8 @@
       class="flex flex-col justify-center ml-[100px] z-10 px-8 sm:px-16 md:px-32 lg:px-48"
     >
       <!-- Título -->
-      <h1 class="text-6xl font-primary font-light text-primary leading-tight"
+      <h1
+        class="text-6xl font-primary font-light text-primary leading-tight"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="200"
@@ -27,7 +28,8 @@
       </h1>
 
       <!-- Parágrafo -->
-      <p class="text-primary mt-6 max-w-md leading-relaxed font-semibold"
+      <p
+        class="text-primary mt-6 max-w-md leading-relaxed font-semibold"
         data-aos="fade-up"
         data-aos-duration="1200"
         data-aos-delay="400"
@@ -71,21 +73,25 @@
       </div>
 
       <div class="mt-10">
-        <p class="text-primary font-semibold" data-aos="fade-up" >
+        <p class="text-primary font-semibold" data-aos="fade-up">
           Conheça-nos:
         </p>
         <div class="flex space-x-4 mt-2">
-          <a href="#" class="hover:text-blue-700"
+          <a
+            href="#"
+            class="hover:text-blue-700"
             data-aos="zoom-in"
             data-aos-duration="1000"
-            data-aos-delay="500"
+            data-aos-delay="400"
           >
             <img src="../assets/linkedin.png" alt="LinkedIn" />
           </a>
-          <a href="#" class="hover:text-blue-700"
-               data-aos="zoom-in"
+          <a
+            href="#"
+            class="hover:text-blue-700"
+            data-aos="zoom-in"
             data-aos-duration="1000"
-            data-aos-delay="600"
+            data-aos-delay="400"
           >
             <img src="../assets/insta.png" alt="Instagram" />
           </a>
@@ -93,16 +99,9 @@
       </div>
     </div>
 
-    <!-- Imagem de Rede Global -->
-    <div class="ml-[70px] w-[600px]">
-      <!-- <img
-        src="../assets/globo.png"
-        alt="Hero"
-        class="max-w-full h-auto"
-        data-aos="fade-left"
-        data-aos-duration="1500"
-      /> -->
-      <Globe/>
+    <!-- Imagem de Rede Global (visível apenas em telas maiores) -->
+    <div class="ml-[70px] flex justify-center mb-10 w-[800px] hidden lg:flex">
+      <Globe />
     </div>
   </div>
 </template>
@@ -126,6 +125,11 @@ export default {
     });
 
     return { isHovered };
+  },
+  watch: {
+    isHovered: function (val) {
+      console.log(val);
+    },
   },
 };
 </script>
