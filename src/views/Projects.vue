@@ -32,6 +32,7 @@
           </div>
         </el-carousel-item>
       </el-carousel>
+      
     </div>
   </div>
 </template>
@@ -54,16 +55,16 @@ export default {
         },
         {
           title: "Projeto 2",
-          description: "Descrição do Projeto 2",
+          description: "O Mercadão Barato Sul é uma plataforma digital desenvolvida para açougues, combinando praticidade e eficiência. Projetada para refletir a identidade do negócio, inclui um painel administrativo que oferece total autonomia ao cliente. As compras são realizadas de forma rápida e direta pelo WhatsApp, conectando consumidores ao estabelecimento com facilidade.",
           image: "",
-          logo: "",
-          link: "#",
+          logo: "../../src/assets/logoMercadao.png",
+          link: "https://mercadaobaratosul.shop/pages/home/home.php",
         },
         {
           title: "Projeto 3",
-          description: "Descrição do Projeto 3",
+          description: "O EzStock é um sistema de gestão de estoque altamente personalizável, projetado para atender às necessidades específicas de cada negócio. Oferece uma interface intuitiva e recursos que garantem organização e controle eficiente, permitindo decisões estratégicas baseadas em dados precisos e em tempo real.",
           image: "",
-          logo: "",
+          logo: "../../src/assets/logoVilla.png",
           link: "#",
         },
       ],
