@@ -4,7 +4,9 @@
   <Projects/>
   <About/>
   <Video/>
-  <Tecnologies/>
+  <Equipe/>
+
+  
 </template>
 
 <script lang="ts">
@@ -13,7 +15,8 @@ import Apresentation from './views/Apresentation.vue'
 import Projects from './views/Projects.vue'
 import About from './views/About.vue';
 import Video from './views/Video.vue';
-import Tecnologies from './views/Tecnologies.vue'
+import Equipe from './views/Equipe.vue';
+
 
 
 export default {
@@ -24,7 +27,7 @@ export default {
     Projects,
     About,
     Video,
-    Tecnologies
+    Equipe
   }
 }
 </script>

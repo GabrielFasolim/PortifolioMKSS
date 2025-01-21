@@ -2,7 +2,7 @@
     <div class="bg-primary800 flex justify-center flex-col pb-[150px] pt-[150px]">
         <div class="flex justify-center gap-5">
             <div v-for="(card, index) in cards" :key="index"
-                class="card flex flex-col border-2 bg-primary700 rounded-s">
+                class="card flex flex-col border-2 bg-primary800 opacity-95 rounded-s">
                 <img class="w-[100px] ml-3" :src="card.image" alt="" />
                 <div class="text-white m-5">
                     <div>
@@ -14,6 +14,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 </template>
 
