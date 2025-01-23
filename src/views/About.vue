@@ -1,8 +1,8 @@
 <template>
     <div class="bg-primary800 flex justify-center flex-col pb-[150px] pt-[150px]">
-        <div class="flex justify-center gap-5">
+        <div class="card-container">
             <div v-for="(card, index) in cards" :key="index"
-                class="card flex flex-col border-2 border-primary600 bg-primary800 opacity-90 rounded-s">
+                class="card flex flex-col items-center border-2 border-primary600 bg-primary800 opacity-90 rounded-s">
                 <img class="w-[100px] ml-3" :src="card.image" alt="" />
                 <div class="text-white m-5">
                     <div>
@@ -14,7 +14,6 @@
                 </div>
             </div>
         </div>
-        
     </div>
 </template>
 
@@ -49,11 +48,27 @@ export default {
 </script>
 
 <style>
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
 .card {
+    flex: 1 1 300px;
+    max-width: 500px;
     transition: transform 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 </style>

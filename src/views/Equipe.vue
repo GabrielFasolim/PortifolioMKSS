@@ -4,8 +4,8 @@
             <h1>Equipe</h1>
         </div>
         <div class="flex flex-col items-center mt-10">
-            <div class="flex justify-center gap-[300px]">
-                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105">
+            <div class="flex flex-wrap justify-center custom-gap">
+                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105 w-full sm:w-auto">
                     <div class="w-[200px] h-[200px] rounded-full">
                         <img :src="cards[0].perfil" alt="Perfil" class="w-full h-full object-cover rounded-full">
                     </div>
@@ -15,7 +15,7 @@
                         <img class="w-[30px]" src="../assets/linkedinEquipe.png" alt="LinkedIn">
                     </a>
                 </div>
-                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105">
+                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105 w-full sm:w-auto">
                     <div class="w-[200px] h-[200px] rounded-full">
                         <img :src="cards[1].perfil" alt="Perfil" class="w-full h-full object-cover rounded-full">
                     </div>
@@ -25,7 +25,7 @@
                         <img class="w-[30px]" src="../assets/linkedinEquipe.png" alt="LinkedIn">
                     </a>
                 </div>
-                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105">
+                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105 w-full sm:w-auto">
                     <div class="w-[200px] h-[200px] rounded-full">
                         <img :src="cards[2].perfil" alt="Perfil" class="w-full h-full object-cover rounded-full">
                     </div>
@@ -36,8 +36,8 @@
                     </a>
                 </div>
             </div>
-            <div class="flex justify-center mt-10 gap-[300px]">
-                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105">
+            <div class="flex flex-wrap justify-center custom-gap mt-10">
+                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105 w-full sm:w-auto">
                     <div class="w-[200px] h-[200px] rounded-full">
                         <img :src="cards[3].perfil" alt="Perfil" class="w-full h-full object-cover rounded-full">
                     </div>
@@ -47,7 +47,7 @@
                         <img class="w-[30px]" src="../assets/linkedinEquipe.png" alt="LinkedIn">
                     </a>
                 </div>
-                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105">
+                <div class="flex flex-col items-center transition-transform duration-300 hover:scale-105 w-full sm:w-auto">
                     <div class="w-[200px] h-[200px] rounded-full">
                         <img :src="cards[4].perfil" alt="Perfil" class="w-full h-full object-cover rounded-full">
                     </div>
@@ -107,34 +107,21 @@ export default {
 </script>
 
 <style>
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-items: center;
-}
-
-@media (min-width: 1024px) {
-    .grid {
-        grid-template-rows: auto auto;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .grid > :nth-child(4),
-    .grid > :nth-child(5) {
-        grid-column: span 1;
-        justify-self: center;
-    }
+.custom-gap {
+    gap: 300px;
+    display: flex;
 }
 
 @media (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+    .custom-gap {
+        gap: 50px;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 640px) {
-    .grid {
-        grid-template-columns: 1fr;
+    .custom-gap {
+        gap: 20px;
     }
 }
 </style>
