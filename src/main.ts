@@ -15,6 +15,8 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
 import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faEnvelope);
 library.add(faBars);
@@ -24,6 +26,8 @@ library.add(faBriefcase);
 library.add(faUserGroup);
 library.add(faSquarePhone);
 library.add(faXmark);
+library.add(faInstagram);
+library.add(faLinkedinIn);
 
 const app = createApp(App);
 

@@ -1,109 +1,98 @@
 <template>
-  <div class="flex items-center min-h-screen bg-white relative">
+  <div class="flex items-center justify-center h-[800px] bg-white relative">
     <!-- Background com imagem de linha -->
-    <div class="absolute ">
+    <div class="absolute top-0 left-0 h-full">
       <img
         src="../assets/lineBg.png"
         alt="Background Lines"
-        class="mt-6 w-full h-full object-cover "
+        class="w-full h-full object-cover"
         data-aos="fade-in"
         data-aos-duration="1500"
       />
     </div>
 
-    <!-- Conteúdo principal -->
     <div
-      class="flex flex-col justify-center ml-[100px] z-10 px-8 sm:px-16 md:px-32 lg:px-48"
+      class="xl:w-8/12 lg:w-10/12 md:w-11/12 w-full mx-4 justify-between flex"
     >
-      <!-- Título -->
-      <h1
-        class="text-6xl font-primary font-light text-primary leading-tight"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="200"
-      >
-        Making. <br />
-        <span class="font-bold text-primary">Software.</span><br />
-        Solutions.
-      </h1>
+      <div class="flex flex-col justify-center z-10">
+        <h1
+          class="text-6xl font-primary font-light text-primary leading-tight"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          Making. <br />
+          <span class="font-bold text-primary">Software.</span><br />
+          Solutions.
+        </h1>
 
-      <!-- Parágrafo -->
-      <p
-        class="text-primary mt-6 max-w-md leading-relaxed font-semibold"
-        data-aos="fade-up"
-        data-aos-duration="1200"
-        data-aos-delay="400"
-      >
-      Na Making Software Solutions (MKSS), estamos comprometidos em levar sua empresa ao próximo nível com nossos serviços de desenvolvimento de software personalizados e landing pages impactantes. Se você busca eficiência, inovação e resultados, está no lugar certo!
-      </p>
+        <!-- Parágrafo -->
+        <p
+          class="text-primary mt-6 max-w-md leading-relaxed font-semibold"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="400"
+        >
+          Na Making Software Solutions, nos comprometemos a levar sua empresa ao
+          próximo nível. Se você busca eficiência, inovação e resultados, está
+          no lugar certo!
+        </p>
 
-      <!-- Botões -->
-      <div class="flex mt-8 space-x-4">
-        <a  href="mailto:mkss.contato@gmail.com">
-          <button
-            @mouseover="isHovered = true"
-            @mouseleave="isHovered = false"
-            class="bg-primary text-white font-medium px-6 py-3 border-primary flex items-center transition-colors duration-400 ease-in-out hover:bg-transparent hover:text-primary hover:border-primary"
+        <!-- Botões -->
+        <div class="flex mt-8 space-x-1 sm:space-x-4">
+          <a
+            href="mailto:mkss.contato@gmail.com"
+            class="bg-primary text-white font-medium px-4 sm:px-6 py-2 text-sm sm:text-base border-2 border-primary rounded-sm flex items-center transition-colors duration-400 ease-in-out hover:bg-transparent hover:text-primary"
             data-aos="zoom-in"
             data-aos-duration="800"
           >
-            <img
-              v-if="!isHovered"
-              src="../assets/mailWhite.svg"
-              alt="Ícone de email"
-              class="w-6 h-6 mr-2 transition-colors duration-400 ease-in-out"
-            />
-            <img
-              v-else
-              src="../assets/mailSvg.svg"
-              alt="Ícone de email"
-              class="w-6 h-6 mr-2 transition-colors duration-400 ease-in-out"
-            />
+            <font-awesome-icon :icon="['fas', 'fa-envelope']" class="mr-2" />
             Entre em contato
-          </button>
-        </a>
-        <button
-          class="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-8 border border-primary hover:border-transparent rounded flex items-center"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-        >
-          Saiba mais
-        </button>
-      </div>
-
-      <div class="mt-10">
-        <p class="text-primary font-semibold" data-aos="fade-up">
-          Conheça-nos:
-        </p>
-        <div class="flex space-x-4 mt-2">
-          <a
-           target="_blank"
-            href="https://www.linkedin.com/company/mkssdev/?viewAsMember=true"
-            class="hover:text-blue-700"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="400"
-          >
-            <img src="../assets/linkedin.png" alt="LinkedIn" />
           </a>
           <a
-          target="_blank"
-            href="https://www.instagram.com/mkss.dev/"
-            class="hover:text-blue-700"
+            href="#"
+            class="bg-transparent hover:bg-primary text-primary font-semibold text-sm sm:text-base hover:text-white py-2 px-3 sm:px-6 border-2 border-primary hover:border-transparent rounded-sm flex items-center"
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="400"
           >
-            <img src="../assets/insta.png" alt="Instagram" />
+            Saiba mais
           </a>
         </div>
-      </div>
-    </div>
 
-    <!-- Imagem de Rede Global (visível apenas em telas maiores) -->
-    <div class="ml-[70px] flex justify-center mb-10 w-[800px] hidden lg:flex">
-      <Globe />
+        <div class="mt-8">
+          <p class="text-primary font-semibold" data-aos="fade-up">
+            Conheça-nos:
+          </p>
+          <div class="flex space-x-4 mt-2">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/mkssdev/?viewAsMember=true"
+              class="text-primary hover:text-blue-700"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <font-awesome-icon :icon="['fab', 'linkedin-in']" class="h-8" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/mkss.dev/"
+              class="text-primary hover:text-blue-700"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <font-awesome-icon :icon="['fab', 'instagram']" class="h-8" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagem de Rede Global (visível apenas em telas maiores) -->
+      <div class="justify-center mb-10 w-[50%] hidden lg:flex">
+        <Globe />
+      </div>
     </div>
   </div>
 </template>

@@ -13,7 +13,7 @@
 
       <div
         :class="[
-          'md:flex md:flex-row flex-col absolute right-0 top-0 h-[100vh] px-6 bg-primary md:bg-transparent md:h-auto md:relative',
+          'md:flex md:flex-row flex-col absolute right-0 top-0 h-[100vh] px-6 bg-primary md:bg-transparent md:h-auto md:relative z-50',
           { hidden: !isSidebarOpen },
         ]"
       >

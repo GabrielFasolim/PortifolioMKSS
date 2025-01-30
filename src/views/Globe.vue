@@ -23,7 +23,10 @@ export default {
       const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
       camera.position.z = 390;
 
-      const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+      const renderer = new THREE.WebGLRenderer({
+        alpha: true,
+        antialias: true,
+      });
       renderer.setSize(width, height);
       container.appendChild(renderer.domElement);
 
@@ -38,7 +41,10 @@ export default {
 
       // Função para adicionar pontos esféricos
       const addPoint = (size, material) => {
-        const sphere = new THREE.Mesh(new THREE.SphereGeometry(size, 16, 16), material);
+        const sphere = new THREE.Mesh(
+          new THREE.SphereGeometry(size, 16, 16),
+          material
+        );
         const phi = Math.random() * Math.PI * 2; // Ângulo em torno do eixo Y
         const theta = Math.acos(Math.random() * 2 - 1); // Ângulo em torno do eixo Z
 
@@ -53,11 +59,13 @@ export default {
       };
 
       // Adiciona pontos principais e menores
-      for (let i = 0; i < 40; i++) { // Ajuste para menos pontos
+      for (let i = 0; i < 40; i++) {
+        // Ajuste para menos pontos
         addPoint(2, sphereMaterial); // Pontos menores
       }
 
-      for (let i = 0; i < 10; i++) { // Ajuste para menos pontos principais
+      for (let i = 0; i < 10; i++) {
+        // Ajuste para menos pontos principais
         addPoint(4, largeSphereMaterial); // Pontos principais
       }
 
