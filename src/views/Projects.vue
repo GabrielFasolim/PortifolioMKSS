@@ -11,12 +11,12 @@
             <div
               class="xl:w-8/12 lg:w-10/12 md:w-11/12 w-full mx-4 flex items-center justify-between"
             >
-              <div class="">
-                <div class="my-4">
+              <div class="flex flex-col items-center lg:items-start">
+                <div class="mb-4">
                   <img :src="project.logo" alt="Project Image" class=" " />
                 </div>
-                <div class="w-[400px] text-justify">
-                  <span class="text-white">
+                <div class="text-center lg:text-start px-12 lg:px-0">
+                  <span class="text-[#D1D6F5]">
                     {{ project.description }}
                   </span>
                 </div>
@@ -27,14 +27,14 @@
                     rel="noopener noreferrer"
                   >
                     <button
-                      class="bg-transparent hover:bg-white hover:text-primary800 text-white font-semibold py-2 px-8 border border-white hover:border-transparent rounded-sm flex items-center"
+                      class="bg-transparent hover:bg-white hover:text-primary800 text-[#D1D6F5] font-semibold py-2 px-8 border-2 border-[#D1D6F5] hover:border-transparent rounded-sm flex items-center"
                     >
                       Conheça o projeto
                     </button>
                   </a>
                 </div>
               </div>
-              <img :src="project.image" alt="" class="w-[60%]" />
+              <img :src="project.image" alt="" class="w-[60%] lg:flex hidden" />
             </div>
           </div>
         </el-carousel-item>

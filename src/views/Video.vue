@@ -24,6 +24,7 @@
               Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit
               dolore dolorum et natus animi ut laboriosam dolorem quo amet
               blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.
+              <br />
               Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit
               dolore dolorum et natus animi ut laboriosam dolorem quo amet
               blanditiis.
