@@ -17,6 +17,9 @@ import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faLaptop } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faEnvelope);
 library.add(faBars);
@@ -28,6 +31,9 @@ library.add(faSquarePhone);
 library.add(faXmark);
 library.add(faInstagram);
 library.add(faLinkedinIn);
+library.add(faLaptop);
+library.add(faCode);
+library.add(faMagnifyingGlass);
 
 const app = createApp(App);
 

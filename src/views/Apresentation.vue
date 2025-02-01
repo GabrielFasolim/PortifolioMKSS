@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center h-[800px] bg-white relative">
+  <div class="flex items-center justify-center h-[830px] bg-white relative">
     <!-- Background com imagem de linha -->
     <div class="absolute top-0 left-0 h-full">
       <img

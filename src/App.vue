@@ -20,10 +20,10 @@ export default {
   components: {
     Header,
     Apresentation,
-    //Projects,
-    //About,
-    //Video,
-    //Equipe,
+    Projects,
+    About,
+    Video,
+    Equipe,
   },
 };
 </script>
