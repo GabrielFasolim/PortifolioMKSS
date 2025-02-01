@@ -27,7 +27,7 @@
                     rel="noopener noreferrer"
                   >
                     <button
-                      class="bg-transparent hover:bg-white hover:text-primary800 text-[#D1D6F5] font-semibold py-2 px-8 border-2 border-[#D1D6F5] hover:border-transparent rounded-sm flex items-center"
+                      class="bg-transparent duration-500 hover:bg-white hover:text-primary800 text-[#D1D6F5] font-semibold py-2 px-8 border-2 border-[#D1D6F5] hover:border-transparent rounded-sm flex items-center"
                     >
                       Conheça o projeto
                     </button>

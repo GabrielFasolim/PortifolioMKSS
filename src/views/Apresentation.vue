@@ -42,19 +42,14 @@
         <div class="flex mt-8 space-x-1 sm:space-x-4">
           <a
             href="mailto:mkss.contato@gmail.com"
-            class="bg-primary text-white font-medium px-4 sm:px-6 py-2 text-sm sm:text-base border-2 border-primary rounded-sm flex items-center transition-colors duration-400 ease-in-out hover:bg-transparent hover:text-primary"
-            data-aos="zoom-in"
-            data-aos-duration="800"
+            class="bg-primary text-white font-medium px-4 sm:px-6 py-2 text-sm sm:text-base border-2 border-primary rounded-sm flex items-center transition-colors duration-500 hover:bg-transparent hover:text-primary"
           >
             <font-awesome-icon :icon="['fas', 'fa-envelope']" class="mr-2" />
             Entre em contato
           </a>
           <a
             href="#"
-            class="bg-transparent hover:bg-primary text-primary font-semibold text-sm sm:text-base hover:text-white py-2 px-3 sm:px-6 border-2 border-primary hover:border-transparent rounded-sm flex items-center"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="400"
+            class="bg-transparent hover:bg-primary text-primary font-semibold text-sm sm:text-base hover:text-white py-2 px-3 sm:px-6 border-2 border-primary duration-500 hover:border-transparent rounded-sm flex items-center"
           >
             Saiba mais
           </a>

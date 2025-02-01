@@ -58,7 +58,7 @@
         </div>
         <a
           href="#"
-          class="bg-transparent md:hover:bg-primary hover:bg-white md:text-primary text-white font-semibold md:hover:text-white hover:text-primary py-2 px-6 border-2 md:border-primary border-white hover:border-transparent rounded-sm flex items-center"
+          class="bg-transparent md:hover:bg-primary hover:bg-white duration-500 md:text-primary text-white font-semibold md:hover:text-white hover:text-primary py-2 px-6 border-2 md:border-primary border-white hover:border-transparent rounded-sm flex items-center"
         >
           <font-awesome-icon :icon="['fas', 'fa-envelope']" class="mr-2" />
           Vamos conversar

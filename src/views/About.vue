@@ -12,7 +12,7 @@
         <div
           v-for="(card, index) in cards"
           :key="index"
-          class="md:card flex flex-col items-start px-6 py-7 border-2 border-[#00228520] bg-[#00228510] rounded-sm"
+          class="flex flex-col items-start px-6 py-7 border-2 border-[#00228520] bg-[#00228510] rounded-sm"
         >
           <font-awesome-icon :icon="card.image" class="h-10 mb-3 text-white" />
           <div class="text-white">
@@ -63,28 +63,4 @@ export default {
 };
 </script>
 
-<style>
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px;
-}
-
-.card {
-  flex: 1 1 300px;
-  max-width: 500px;
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-@media (max-width: 768px) {
-  .card-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-</style>
+<style></style>
