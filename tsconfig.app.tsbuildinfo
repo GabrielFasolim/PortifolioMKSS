@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/vite-env.d.ts","./src/app.vue","./src/views/about.vue","./src/views/apresentation.vue","./src/views/equipe.vue","./src/views/footer.vue","./src/views/globe.vue","./src/views/header.vue","./src/views/projects.vue","./src/views/video.vue"],"version":"5.7.3"}
