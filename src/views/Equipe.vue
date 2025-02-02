@@ -1,15 +1,23 @@
 <template>
   <div class="flex justify-center py-14">
     <div class="xl:w-8/12 lg:w-10/12 md:w-11/12 w-full">
-      <h1 class="text-2xl text-center text-primary500 font-bold mb-12 sm:mb-16">
+      <h4
+        class="text-2xl text-center text-primary500 font-bold mb-12 sm:mb-16 relative z-10"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
         Nossa equipe
-      </h1>
+      </h4>
       <div
         class="flex flex-wrap sm:flex-row flex-col items-center justify-center sm:gap-x-20 lg:gap-x-40 2xl:gap-x-64 gap-y-12 sm:gap-y-14"
       >
         <div
-          class="flex flex-col items-center transition-transform duration-300 hover:scale-105 sm:w-auto"
+          class="flex flex-col items-center transition-transform duration-300 hover:scale-105 sm:w-auto relative z-10"
           v-for="(card, index) in cards"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
         >
           <img
             :src="card.perfil"

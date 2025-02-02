@@ -1,6 +1,11 @@
 <template>
   <div class="bg-primary800 border-b-2 border-[#00228520]">
-    <div class="block text-center h-[550px]">
+    <div
+      class="block text-center h-[550px]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="200"
+    >
       <el-carousel height="530px" motion-blur>
         <el-carousel-item
           v-for="(project, index) in projects"

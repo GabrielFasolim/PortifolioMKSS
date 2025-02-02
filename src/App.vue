@@ -1,10 +1,12 @@
 <template>
-  <Header />
-  <Apresentation />
-  <Projects />
-  <About />
-  <Video />
-  <Equipe />
+  <div class="relative">
+    <Header />
+    <Apresentation />
+    <Projects />
+    <About />
+    <Video />
+    <Equipe />
+  </div>
 </template>
 
 <script lang="ts">
