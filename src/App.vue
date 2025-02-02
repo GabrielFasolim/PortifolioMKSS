@@ -6,6 +6,7 @@
     <About />
     <Video />
     <Equipe />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Projects from "./views/Projects.vue";
 import About from "./views/About.vue";
 import Video from "./views/Video.vue";
 import Equipe from "./views/Equipe.vue";
+import Footer from "./views/Footer.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     About,
     Video,
     Equipe,
+    Footer,
   },
 };
 </script>

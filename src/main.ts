@@ -20,6 +20,7 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faEnvelope);
 library.add(faBars);
@@ -34,6 +35,7 @@ library.add(faLinkedinIn);
 library.add(faLaptop);
 library.add(faCode);
 library.add(faMagnifyingGlass);
+library.add(faWhatsapp);
 
 const app = createApp(App);
 
