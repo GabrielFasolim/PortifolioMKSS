@@ -59,8 +59,8 @@ export default {
           title: "Projeto 1",
           description:
             "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et natus animi ut laboriosam dolorem quo amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
-          image: "public/mockup.png",
-          logo: "public/logoPaola.png",
+          image: "../../src/assets/mockup.png",
+          logo: "../../src/assets/logoPaola.png",
           link: "https://paolanutri.com.br/",
         },
         {
