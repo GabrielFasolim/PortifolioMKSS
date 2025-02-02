@@ -50,32 +50,32 @@ export default {
           title: "Elvis Claudino",
           cargo: "Desenvolvedor Full Stack",
           linkedin: "https://www.linkedin.com/in/elvis-claudino/",
-          perfil: "../../src/assets/elvis.png",
+          perfil: "src/assets/elvis.png",
         },
         {
           title: "Cauã Brito",
           cargo: "Desenvolvedor Back-end",
           linkedin: "https://www.linkedin.com/in/cau%C3%A3-brito/",
-          perfil: "../../src/assets/caua.png",
+          perfil: "src/assets/caua.png",
         },
         {
           title: "Carlos Scorsoni",
           cargo: "Desenvolvedor Back-end",
           linkedin:
             "https://www.linkedin.com/in/carlos-eduardo-scorsoni-dias-825918236/",
-          perfil: "../../src/assets/kadu.png",
+          perfil: "src/assets/kadu.png",
         },
         {
           title: "Gabriel Fasolim",
           cargo: "Desenvolvedor Full Stack",
           linkedin: "https://www.linkedin.com/in/gabrielfasolim/",
-          perfil: "../../src/assets/gabriel.png",
+          perfil: "src/assets/gabriel.png",
         },
         {
           title: "Gustavo Bordignon",
           cargo: "Desenvolvedor Front-end",
           linkedin: "https://www.linkedin.com/in/gustavo-bordignon-326861203/",
-          perfil: "../../src/assets/gb.png",
+          perfil: "src/assets/gb.png",
         },
       ],
     };

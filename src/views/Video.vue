@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-auto">
+  <div class="relative h-auto overflow-hidden">
     <div class="absolute hidden lg:flex right-0 z-0 h-full">
       <img
         src="../assets/lineBgInv.png"
@@ -36,7 +36,7 @@
             blanditiis.
           </p>
         </div>
-        <div class="flex-1 lg:w-[60%] w-full px-4 md:px-0 overflow-hidden">
+        <div class="flex-1 lg:w-[60%] w-full px-4 md:px-0">
           <video
             data-aos="fade-left"
             data-aos-duration="1000"
