@@ -23,7 +23,7 @@ export default {
     Projects,
     About,
     Video,
-    //Equipe,
+    Equipe,
   },
 };
 </script>

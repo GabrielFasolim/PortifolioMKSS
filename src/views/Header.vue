@@ -1,7 +1,9 @@
 <template>
-  <div class="border-b border-primary100 flex md:justify-center">
+  <div
+    class="border-b border-primary100 flex md:justify-center fixed top-0 w-full z-50 bg-white"
+  >
     <div
-      class="xl:w-8/12 lg:w-10/12 md:w-11/12 flex items-center justify-between md:my-6 my-4 mx-4 md:ml-0 w-[100%]"
+      class="xl:w-8/12 lg:w-10/12 md:w-11/12 flex items-center justify-between md:my-5 my-4 mx-4 md:ml-0 w-[100%]"
     >
       <div>
         <img
@@ -13,7 +15,7 @@
 
       <div
         :class="[
-          'md:flex md:flex-row flex-col absolute right-0 top-0 h-[100vh] px-6 bg-primary md:bg-transparent md:h-auto md:relative z-50',
+          'md:flex md:flex-row flex-col absolute right-0 top-0 h-[100vh] px-6 bg-primary border-l border-primary800/70 md:border-none md:bg-transparent md:h-auto md:relative z-50',
           { hidden: !isSidebarOpen },
         ]"
       >
