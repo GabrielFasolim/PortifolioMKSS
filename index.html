@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <link id="favicon" rel="icon" href="favicon-light.ico" />
     <link
-    rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"
-  />
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MKSS</title>
   </head>
@@ -18,7 +18,10 @@
     rel="stylesheet"
     href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"
   />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
   <script src="//cdn.jsdelivr.net/npm/element-plus"></script>
 </html>
 <body>
@@ -35,7 +38,9 @@
 
     // Detecta o tema preferido
     function detectTheme() {
-      const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const isDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
       changeFavicon(isDarkMode ? "dark" : "light");
     }
 
@@ -43,8 +48,10 @@
     detectTheme();
 
     // Opcional: Atualiza o favicon quando o tema for alterado
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-      changeFavicon(e.matches ? "dark" : "light");
-    });
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (e) => {
+        changeFavicon(e.matches ? "dark" : "light");
+      });
   </script>
 </body>

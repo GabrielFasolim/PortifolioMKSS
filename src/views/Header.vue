@@ -1,44 +1,96 @@
 <template>
-  <div class="border-b-2	 border-primary100 ">
-    <div class="flex justify-between m-8">
-      <div class="ml-[200px]">
-        <img src="../assets/logoAzul.png" alt="Logo Azul" />
+  <div
+    class="border-b border-primary100 flex md:justify-center fixed top-0 w-full z-50 bg-white"
+  >
+    <div
+      class="xl:w-8/12 lg:w-10/12 md:w-11/12 flex items-center justify-between md:my-5 my-4 mx-4 md:ml-0 w-[100%]"
+    >
+      <div>
+        <img
+          src="../assets/logoMKSS.png"
+          alt="Logo Azul"
+          class="md:h-auto h-6"
+        />
       </div>
 
-      <div class="flex mr-[200px]">
-        <div class="text-primary font-semiBold flex items-center mr-12 gap-10">
-          <a href="#">Home</a>
-          <a href="#">Sobre</a>
-          <a href="#">Serviços</a>
-          <a href="#">Equipe</a>
-          <a href="#">Contato</a>
-        </div>
-        <button
-          class="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-8 border border-primary hover:border-transparent rounded flex items-center"
+      <div
+        :class="[
+          'md:flex md:flex-row flex-col absolute right-0 top-0 h-[100vh] px-6 bg-primary border-l border-primary800/70 md:border-none md:bg-transparent md:h-auto md:relative z-50',
+          { hidden: !isSidebarOpen },
+        ]"
+      >
+        <div
+          class="md:text-primary text-white font-semiBold flex md:flex-row flex-col items-start md:items-center mr-6 lg:mr-12 gap-4 mb-6 md:mb-0 md:gap-4 lg:gap-10"
         >
-          <!-- Imagem SVG com filtro de cor no hover -->
-          <img
-            src="../assets/mailSvg.svg"
-            alt="Ícone de email"
-            class="w-6 h-6 mr-2 hover:filter hover:invert hover:sepia hover:brightness-150"
+          <font-awesome-icon
+            :icon="['fas', 'fa-xmark']"
+            class="md:hidden text-white h-6 cursor-pointer mt-4 mb-2"
+            @click="toggleSidebar"
           />
+          <a href="#"
+            ><font-awesome-icon
+              :icon="['fas', 'fa-home']"
+              class="mr-2 md:hidden h-3 pb-0.5"
+            />Home</a
+          >
+          <a href="#">
+            <font-awesome-icon
+              :icon="['fas', 'fa-circle-info']"
+              class="mr-2 md:hidden h-3 pb-0.5"
+            />Sobre</a
+          >
+          <a href="#"
+            ><font-awesome-icon
+              :icon="['fas', 'fa-briefcase']"
+              class="mr-2 md:hidden h-3 pb-0.5"
+            />Serviços</a
+          >
+          <a href="#"
+            ><font-awesome-icon
+              :icon="['fas', 'fa-user-group']"
+              class="mr-2 md:hidden h-3 pb-0.5"
+            />Equipe</a
+          >
+          <a href="#"
+            ><font-awesome-icon
+              :icon="['fas', 'fa-square-phone']"
+              class="mr-2 md:hidden h-3 pb-0.5"
+            />Contato</a
+          >
+        </div>
+        <a
+          href="#"
+          class="bg-transparent md:hover:bg-primary hover:bg-white duration-500 md:text-primary text-white font-semibold md:hover:text-white hover:text-primary py-2 px-6 border-2 md:border-primary border-white hover:border-transparent rounded-sm flex items-center"
+        >
+          <font-awesome-icon :icon="['fas', 'fa-envelope']" class="mr-2" />
           Vamos conversar
-        </button>
+        </a>
       </div>
+
+      <font-awesome-icon
+        :icon="['fas', 'fa-bars']"
+        class="md:hidden text-primary h-6 cursor-pointer"
+        @click="toggleSidebar"
+      />
     </div>
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+import { ref } from "vue";
 
-<style scoped>
-/* Filtro de cor no SVG */
-button {
-  transition: all 0.3s ease;
-  border-width: 3px; /* Aumenta a espessura da borda */
-}
+export default {
+  setup() {
+    const isSidebarOpen = ref(false);
 
-button:hover img {
-  filter: invert(1) sepia(1) brightness(2);
-}
-</style>
+    const toggleSidebar = () => {
+      isSidebarOpen.value = !isSidebarOpen.value;
+    };
+
+    return {
+      isSidebarOpen,
+      toggleSidebar,
+    };
+  },
+};
+</script>
