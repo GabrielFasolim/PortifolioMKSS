@@ -40,7 +40,14 @@
   </div>
 </template>
 
-<script>
+<script  lang="ts">
+import elvisImg from '@/assets/elvis.png';
+import cauaImg from '@/assets/caua.png';
+import kaduImg from '@/assets/kadu.png';
+import gabrielImg from '@/assets/gabriel.png';
+import gbImg from '@/assets/gb.png';
+
+
 export default {
   data() {
     return {
@@ -50,32 +57,32 @@ export default {
           title: "Elvis Claudino",
           cargo: "Desenvolvedor Full Stack",
           linkedin: "https://www.linkedin.com/in/elvis-claudino/",
-          perfil: "src/assets/elvis.png",
+          perfil:  elvisImg,
         },
         {
           title: "Cauã Brito",
           cargo: "Desenvolvedor Back-end",
           linkedin: "https://www.linkedin.com/in/cau%C3%A3-brito/",
-          perfil: "src/assets/caua.png",
+          perfil: cauaImg,
         },
         {
           title: "Carlos Scorsoni",
           cargo: "Desenvolvedor Back-end",
           linkedin:
             "https://www.linkedin.com/in/carlos-eduardo-scorsoni-dias-825918236/",
-          perfil: "src/assets/kadu.png",
+          perfil: kaduImg,
         },
         {
           title: "Gabriel Fasolim",
           cargo: "Desenvolvedor Full Stack",
           linkedin: "https://www.linkedin.com/in/gabrielfasolim/",
-          perfil: "src/assets/gabriel.png",
+          perfil: gabrielImg,
         },
         {
           title: "Gustavo Bordignon",
           cargo: "Desenvolvedor Front-end",
           linkedin: "https://www.linkedin.com/in/gustavo-bordignon-326861203/",
-          perfil: "src/assets/gb.png",
+          perfil: gbImg,
         },
       ],
     };
