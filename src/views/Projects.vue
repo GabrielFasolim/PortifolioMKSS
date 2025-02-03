@@ -61,7 +61,7 @@ export default {
           description:
             "A landing page da nutricionista Paola Alves <strong>destaca seus serviços de forma clara e objetiva</strong>. Com um design intuitivo, apresenta planos nutricionais personalizados e resultados comprovados, proporcionando uma <strong>experiência envolvente que incentiva novos agendamentos</strong>.",
           image: "../../src/assets/mockup.png",
-          logo: "../../src/assets/logoPaola.png",
+          logo: "../src/assets/logoPaola.png",
           link: "https://paolanutri.com.br/",
         },
         {
