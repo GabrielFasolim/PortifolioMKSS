@@ -14,7 +14,7 @@
       >
         <div
           class="flex flex-col items-center transition-transform duration-300 hover:scale-105 sm:w-auto relative z-10"
-          v-for="(card, index) in cards"
+          v-for="card in cards"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="200"
