@@ -21,10 +21,9 @@
                   <img :src="project.logo" alt="Project Image" class=" " />
                 </div>
                 <div class="text-center lg:text-start px-12 lg:px-0">
-                  <span
-                    class="text-[#D1D6F5]"
-                    v-html="project.description"
-                  ></span>
+                  <span class="text-[#D1D6F5]">
+                    {{ project.description }}
+                  </span>
                 </div>
                 <div class="my-8">
                   <a
@@ -59,9 +58,9 @@ export default {
         {
           title: "Projeto 1",
           description:
-            "A landing page da nutricionista Paola Alves <strong>destaca seus serviços de forma clara e objetiva</strong>. Com um design intuitivo, apresenta planos nutricionais personalizados e resultados comprovados, proporcionando uma <strong>experiência envolvente que incentiva novos agendamentos</strong>.",
+            "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et natus animi ut laboriosam dolorem quo amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
           image: "../../src/assets/mockup.png",
-          logo: "../src/assets/logoPaola.png",
+          logo: "../assets/logoPaola.png",
           link: "https://paolanutri.com.br/",
         },
         {
