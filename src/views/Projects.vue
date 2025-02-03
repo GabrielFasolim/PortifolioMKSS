@@ -17,14 +17,12 @@
               class="xl:w-8/12 lg:w-10/12 md:w-11/12 w-full mx-4 flex items-center justify-between"
             >
               <div class="flex flex-col items-center lg:items-start">
-                <div class="mb-4">
-                  <img :src="project.logo" alt="Project Image" class=" " />
-                </div>
-                <div class="text-center lg:text-start px-12 lg:px-0">
-                  <span class="text-[#D1D6F5]">
-                    {{ project.description }}
-                  </span>
-                </div>
+                <img :src="project.logo" alt="Project Image" class="mb-4" />
+                <span
+                  class="text-[#D1D6F5] text-center lg:text-start px-12 lg:px-0"
+                  v-html="project.description"
+                >
+                </span>
                 <div class="my-8">
                   <a
                     :href="project.link"
@@ -50,10 +48,10 @@
 
 <script>
 import { defineComponent } from "vue";
-import logoPaola from '../assets/logoPaola.png';
-import logoMercadao from '../assets/logoMercadao.png';
-import logoVilla from '../assets/logoVilla.png';
-import mockup from '../../src/assets/mockup.png';
+import logoPaola from "../assets/logoPaola.png";
+import logoMercadao from "../assets/logoMercadao.png";
+import logoVilla from "../assets/logoVilla.png";
+import mockup from "../../src/assets/mockup.png";
 
 export default {
   data() {
@@ -62,7 +60,7 @@ export default {
         {
           title: "Projeto 1",
           description:
-            "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et natus animi ut laboriosam dolorem quo amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
+            "A landing page da nutricionista Paola Alves <strong>destaca seus serviços de forma clara e objetiva</strong>. Com um design intuitivo, apresenta planos nutricionais personalizados e resultados comprovados, proporcionando uma <strong>experiência envolvente que incentiva novos agendamentos</strong>.",
           image: mockup,
           logo: logoPaola,
           link: "https://paolanutri.com.br/",
@@ -70,7 +68,7 @@ export default {
         {
           title: "Projeto 2",
           description:
-            "O Mercadão Barato Sul é uma plataforma digital desenvolvida para açougues, combinando praticidade e eficiência. Projetada para refletir a identidade do negócio, inclui um painel administrativo que oferece total autonomia ao cliente. As compras são realizadas de forma rápida e direta pelo WhatsApp, conectando consumidores ao estabelecimento com facilidade.",
+            "O Mercadão Barato Sul é uma plataforma digital desenvolvida para açougues, <strong>combinando praticidade e eficiência</strong>. Projetada para refletir a identidade do negócio, inclui um painel administrativo que oferece total autonomia ao cliente. As compras são realizadas de forma rápida e direta pelo WhatsApp, <strong>conectando consumidores ao estabelecimento com facilidade</strong>.",
           image: "",
           logo: logoMercadao,
           link: "https://mercadaobaratosul.shop/pages/home/home.php",
@@ -78,7 +76,7 @@ export default {
         {
           title: "Projeto 3",
           description:
-            "O EzStock é um sistema de gestão de estoque altamente personalizável, projetado para atender às necessidades específicas de cada negócio. Oferece uma interface intuitiva e recursos que garantem organização e controle eficiente, permitindo decisões estratégicas baseadas em dados precisos e em tempo real.",
+            "O EzStock é um <strong>sistema de gestão de estoque altamente personalizável</strong>, projetado para atender às necessidades específicas de cada negócio. Oferece uma <strong>interface intuitiva e recursos que garantem organização e controle eficiente</strong>, permitindo decisões estratégicas baseadas em dados precisos e em tempo real.",
           image: "",
           logo: logoVilla,
           link: "#",
