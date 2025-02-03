@@ -41,11 +41,11 @@
 </template>
 
 <script  lang="ts">
-import elvisImg from "../assets/elvis.png"
-import cauaImg from "../assets/caua.png";
-import kaduImg from "../assets/kadu.png";
-import gabrielImg from "../assets/gabriel.png" 
-import gbImg from "../assets/gb.png"
+import elvisImg from '../assets/elvis.png';
+import cauaImg from '../assets/caua.png';
+import kaduImg from '../assets/kadu.png';
+import gabrielImg from '../assets/gabriel.png';
+import gbImg from '../assets/gb.png';
 
 
 export default {
