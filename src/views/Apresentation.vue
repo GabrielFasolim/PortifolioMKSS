@@ -30,7 +30,7 @@
 
         <!-- Parágrafo -->
         <p
-          class="text-primary mt-6 max-w-md leading-relaxed font-semibold"
+          class="text-primary mt-6 max-w-md leading-relaxed"
           data-aos="fade-up"
           data-aos-duration="1200"
           data-aos-delay="400"
@@ -58,9 +58,7 @@
         </div>
 
         <div class="mt-8">
-          <p class="text-primary font-semibold" data-aos="fade-up">
-            Conheça-nos:
-          </p>
+          <p class="text-primary font-bold" data-aos="fade-up">Conheça-nos:</p>
           <div class="flex space-x-4 mt-2">
             <a
               target="_blank"

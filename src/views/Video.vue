@@ -27,13 +27,19 @@
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit
-            dolore dolorum et natus animi ut laboriosam dolorem quo amet
-            blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.
-            <br />
-            Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit
-            dolore dolorum et natus animi ut laboriosam dolorem quo amet
-            blanditiis.
+            Na Making Software Solutions,
+            <span class="font-bold"
+              >transformamos ideias em soluções digitais</span
+            >
+            com uma equipe de desenvolvedores qualificados. Criamos soluções
+            personalizadas para diversos negócios, sempre focando nas
+            necessidades de cada cliente.<span class="font-bold ml-1">
+              A inovação é o nosso guia, e o sucesso dos nossos clientes é nosso
+              objetivo</span
+            >. <br />Seja para otimizar processos, aumentar eficiência ou
+            melhorar a experiência do usuário, estamos prontos para entregar o
+            melhor em tecnologia.
+            <span class="font-bold ml-1">Conecte-se ao futuro com a MKSS</span>.
           </p>
         </div>
         <div class="flex-1 lg:w-[60%] w-full px-4 md:px-0">

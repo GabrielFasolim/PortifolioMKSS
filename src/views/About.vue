@@ -50,19 +50,19 @@ export default {
         {
           title: "Landing Pages",
           description:
-            "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
+            "Desenvolvemos páginas otimizadas para conversão, focadas em atrair e engajar visitantes, garantindo resultados efetivos para suas campanhas.",
           image: ["fas", "laptop"],
         },
         {
           title: "Software Personalizado",
           description:
-            "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
+            "Criamos soluções sob medida, adaptadas às necessidades específicas do seu negócio, visando melhorar processos e aumentar a eficiência.",
           image: ["fas", "code"],
         },
         {
           title: "SEO Optimization",
           description:
-            "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
+            "Implementamos estratégias de SEO para aumentar a visibilidade online, ajudando sua marca a se destacar nos motores de busca e alcançar mais clientes.",
           image: ["fas", "magnifying-glass"],
         },
       ],
