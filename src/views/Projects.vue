@@ -50,6 +50,10 @@
 
 <script>
 import { defineComponent } from "vue";
+import logoPaola from '../assets/logoPaola.png';
+import logoMercadao from '../assets/logoMercadao.png';
+import logoVilla from '../assets/logoVilla.png';
+import mockup from '../../src/assets/mockup.png';
 
 export default {
   data() {
@@ -59,8 +63,8 @@ export default {
           title: "Projeto 1",
           description:
             "Lorem ipsum dolor sit amet. Et sunt enim rem dignissimos eius sit dolore dolorum et natus animi ut laboriosam dolorem quo amet blanditiis. Ea enim dolores ad nobis fugiat et tenetur debitis.",
-          image: "../../src/assets/mockup.png",
-          logo: "../assets/logoPaola.png",
+          image: mockup,
+          logo: logoPaola,
           link: "https://paolanutri.com.br/",
         },
         {
@@ -68,7 +72,7 @@ export default {
           description:
             "O Mercadão Barato Sul é uma plataforma digital desenvolvida para açougues, combinando praticidade e eficiência. Projetada para refletir a identidade do negócio, inclui um painel administrativo que oferece total autonomia ao cliente. As compras são realizadas de forma rápida e direta pelo WhatsApp, conectando consumidores ao estabelecimento com facilidade.",
           image: "",
-          logo: "../../src/assets/logoMercadao.png",
+          logo: logoMercadao,
           link: "https://mercadaobaratosul.shop/pages/home/home.php",
         },
         {
@@ -76,7 +80,7 @@ export default {
           description:
             "O EzStock é um sistema de gestão de estoque altamente personalizável, projetado para atender às necessidades específicas de cada negócio. Oferece uma interface intuitiva e recursos que garantem organização e controle eficiente, permitindo decisões estratégicas baseadas em dados precisos e em tempo real.",
           image: "",
-          logo: "../../src/assets/logoVilla.png",
+          logo: logoVilla,
           link: "#",
         },
       ],
