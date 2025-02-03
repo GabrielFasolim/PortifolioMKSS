@@ -40,7 +40,7 @@
   </div>
 </template>
 
-<script  lang="ts">
+<script>
 import elvisImg from '../assets/elvis.png';
 import cauaImg from '../assets/caua.png';
 import kaduImg from '../assets/kadu.png';
