@@ -33,25 +33,25 @@
               class="mr-2 md:hidden h-3 pb-0.5"
             />Home</a
           >
-          <a href="#">
-            <font-awesome-icon
-              :icon="['fas', 'fa-circle-info']"
-              class="mr-2 md:hidden h-3 pb-0.5"
-            />Sobre</a
-          >
-          <a href="#"
+          <a href="#projects"
             ><font-awesome-icon
               :icon="['fas', 'fa-briefcase']"
               class="mr-2 md:hidden h-3 pb-0.5"
             />Serviços</a
           >
-          <a href="#"
+          <a href="#about">
+            <font-awesome-icon
+              :icon="['fas', 'fa-circle-info']"
+              class="mr-2 md:hidden h-3 pb-0.5"
+            />Sobre</a
+          >
+          <a href="#team"
             ><font-awesome-icon
               :icon="['fas', 'fa-user-group']"
               class="mr-2 md:hidden h-3 pb-0.5"
             />Equipe</a
           >
-          <a href="#"
+          <a href="#footer"
             ><font-awesome-icon
               :icon="['fas', 'fa-square-phone']"
               class="mr-2 md:hidden h-3 pb-0.5"
@@ -59,7 +59,8 @@
           >
         </div>
         <a
-          href="#"
+          href="mailto:mkss.contato@gmail.com"
+          target="_blank"
           class="bg-transparent md:hover:bg-primary hover:bg-white duration-500 md:text-primary text-white font-semibold md:hover:text-white hover:text-primary py-2 px-6 border-2 md:border-primary border-white hover:border-transparent rounded-sm flex items-center"
         >
           <font-awesome-icon :icon="['fas', 'fa-envelope']" class="mr-2" />

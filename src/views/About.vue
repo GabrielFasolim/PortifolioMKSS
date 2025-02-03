@@ -25,14 +25,15 @@
           <font-awesome-icon :icon="card.image" class="h-10 mb-3 text-white" />
           <div class="text-white">
             <div>
-              <h3 class="text-xl font-bold text-[#D1D6F5] mb-3">
+              <h3 class="text-xl font-bold text-[#D1D6F5] mb-2">
                 {{ card.title }}
               </h3>
             </div>
             <div>
-              <p class="w-full text-sm sm:text-base md:text-sm mb-4">
-                {{ card.description }}
-              </p>
+              <p
+                class="w-full text-sm sm:text-base md:text-sm mb-4"
+                v-html="card.description"
+              ></p>
             </div>
           </div>
         </div>
@@ -50,19 +51,19 @@ export default {
         {
           title: "Landing Pages",
           description:
-            "Desenvolvemos páginas otimizadas para conversão, focadas em atrair e engajar visitantes, garantindo resultados efetivos para suas campanhas.",
+            "<strong>Desenvolvemos páginas otimizadas</strong> para conversão, focadas em atrair e engajar visitantes, garantindo <strong>resultados efetivos para suas campanhas</strong>.",
           image: ["fas", "laptop"],
         },
         {
           title: "Software Personalizado",
           description:
-            "Criamos soluções sob medida, adaptadas às necessidades específicas do seu negócio, visando melhorar processos e aumentar a eficiência.",
+            "Criamos <strong>soluções sob medida</strong>, adaptadas às necessidades específicas do seu negócio, visando <strong>melhorar processos e aumentar a eficiência</strong>.",
           image: ["fas", "code"],
         },
         {
           title: "SEO Optimization",
           description:
-            "Implementamos estratégias de SEO para aumentar a visibilidade online, ajudando sua marca a se destacar nos motores de busca e alcançar mais clientes.",
+            "Implementamos <strong>estratégias de SEO</strong> para aumentar a visibilidade online, ajudando <strong>sua marca a se destacar nos motores de busca</strong> e alcançar mais clientes.",
           image: ["fas", "magnifying-glass"],
         },
       ],

@@ -2,11 +2,11 @@
   <div class="relative font-outfit">
     <Header />
     <Apresentation />
-    <Projects />
-    <About />
-    <Video />
-    <Equipe />
-    <Footer />
+    <Projects id="projects" />
+    <About id="about" />
+    <Video id="video" />
+    <Equipe id="team" />
+    <Footer id="footer"/>
   </div>
 </template>
 

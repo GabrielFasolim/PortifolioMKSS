@@ -9,17 +9,21 @@
         @ 2025 Making Software Solutions
       </p>
       <div class="flex gap-2 sm:gap-4">
-        <a href=""
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/mkssdev/?viewAsMember=true"
           ><font-awesome-icon
             :icon="['fab', 'linkedin-in']"
             class="h-4 sm:h-5 hover:text-white"
         /></a>
-        <a href=""
+        <a target="_blank" href="https://www.instagram.com/mkss.dev/"
           ><font-awesome-icon
             :icon="['fab', 'instagram']"
             class="h-4 sm:h-5 hover:text-white"
         /></a>
-        <a href=""
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send/?phone=5546991206418&text&type=phone_number&app_absent=0"
           ><font-awesome-icon
             :icon="['fab', 'whatsapp']"
             class="h-4 sm:h-5 hover:text-white"
