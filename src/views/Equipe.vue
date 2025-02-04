@@ -41,12 +41,11 @@
 </template>
 
 <script>
-import elvisImg from '../assets/elvis.png';
-import cauaImg from '../assets/caua.png';
-import kaduImg from '../assets/kadu.png';
-import gabrielImg from '../assets/gabriel.png';
-import gbImg from '../assets/gb.png';
-
+import elvisImg from "../assets/elvis.png";
+import cauaImg from "../assets/caua.png";
+import kaduImg from "../assets/kadu.png";
+import gabrielImg from "../assets/gabriel.png";
+import gbImg from "../assets/gb.png";
 
 export default {
   data() {
@@ -55,32 +54,32 @@ export default {
       cards: [
         {
           title: "Elvis Claudino",
-          cargo: "Desenvolvedor Full Stack",
+          cargo: "Desenvolvedor Full-Stack",
           linkedin: "https://www.linkedin.com/in/elvis-claudino/",
-          perfil:  elvisImg,
+          perfil: elvisImg,
         },
         {
           title: "Cauã Brito",
-          cargo: "Desenvolvedor Back-end",
+          cargo: "Desenvolvedor Back-End",
           linkedin: "https://www.linkedin.com/in/cau%C3%A3-brito/",
           perfil: cauaImg,
         },
         {
           title: "Carlos Scorsoni",
-          cargo: "Desenvolvedor Back-end",
+          cargo: "Desenvolvedor Back-End",
           linkedin:
             "https://www.linkedin.com/in/carlos-eduardo-scorsoni-dias-825918236/",
           perfil: kaduImg,
         },
         {
           title: "Gabriel Fasolim",
-          cargo: "Desenvolvedor Full Stack",
+          cargo: "Desenvolvedor Full-Stack",
           linkedin: "https://www.linkedin.com/in/gabrielfasolim/",
           perfil: gabrielImg,
         },
         {
           title: "Gustavo Bordignon",
-          cargo: "Desenvolvedor Front-end",
+          cargo: "Desenvolvedor Front-End",
           linkedin: "https://www.linkedin.com/in/gustavo-bordignon-326861203/",
           perfil: gbImg,
         },
