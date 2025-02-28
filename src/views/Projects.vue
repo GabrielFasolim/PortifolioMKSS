@@ -52,6 +52,8 @@ import logoPaola from "../assets/logoPaola.png";
 import logoMercadao from "../assets/logoMercadao.png";
 import logoVilla from "../assets/logoVilla.png";
 import mockup from "../../src/assets/mockup.png";
+import ezstock from "../../src/assets/ezstock.png";
+import mercadao from "../../src/assets/mercadao.png";
 
 export default {
   data() {
@@ -69,7 +71,7 @@ export default {
           title: "Projeto 2",
           description:
             "O Mercadão Barato Sul é uma plataforma digital desenvolvida para açougues, <strong>combinando praticidade e eficiência</strong>. Projetada para refletir a identidade do negócio, inclui um painel administrativo que oferece total autonomia ao cliente. As compras são realizadas de forma rápida e direta pelo WhatsApp, <strong>conectando consumidores ao estabelecimento com facilidade</strong>.",
-          image: "",
+          image: mercadao,
           logo: logoMercadao,
           link: "https://mercadaobaratosul.shop/pages/home/home.php",
         },
@@ -77,7 +79,7 @@ export default {
           title: "Projeto 3",
           description:
             "O EzStock é um <strong>sistema de gestão de estoque altamente personalizável</strong>, projetado para atender às necessidades específicas de cada negócio. Oferece uma <strong>interface intuitiva e recursos que garantem organização e controle eficiente</strong>, permitindo decisões estratégicas baseadas em dados precisos e em tempo real.",
-          image: "",
+          image: ezstock,
           logo: logoVilla,
           link: "#",
         },
